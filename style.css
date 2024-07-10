@@ -91,3 +91,16 @@ main {
   text-align: center;
   border: 2px solid red;
 }
+
+.target-title-desc {
+  text-align: center;
+}
+
+.current-target-cards {
+  display: flex;
+  border: 2px solid red;
+}
+
+.next-target-card-alignment {
+  display: flex;
+}
