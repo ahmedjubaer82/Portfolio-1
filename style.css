@@ -104,3 +104,8 @@ main {
 .next-target-card-alignment {
   display: flex;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
