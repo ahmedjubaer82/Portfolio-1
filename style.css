@@ -14,6 +14,12 @@
     max-width: 1440px;
   }
 
+  .main-sections {
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+  }  
+
 /* navbar starts here */
 .navbar {
     display: flex;
@@ -65,12 +71,6 @@
   border: 2px solid red;
 }
 
-main {
-  max-width: 1140px;
-  margin: 0 auto;
-  border: 2px solid red;
-}
-
 .why-web-dev {
   padding: 80px 97px 80px 97px;
 }
@@ -101,11 +101,39 @@ main {
   border: 2px solid red;
 }
 
+.next-target-cards img {
+  margin-right: 50px;
+}
+
 .next-target-card-alignment {
   display: flex;
 }
 
+#support-container {
+  height: 315px;
+  background-image: url(./assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.support {
+  text-align: center;
+  color: white;
+} 
+
 footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  width: 1140px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
