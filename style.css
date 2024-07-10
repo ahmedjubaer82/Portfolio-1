@@ -1,2 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Azeret Mono", monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;   
+}
+
+  body {
+    border: 2px solid green;
+    max-width: 1440px;
+  }
+
+/* navbar starts here */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 150px ;
+}
